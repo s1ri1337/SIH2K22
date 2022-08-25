@@ -2,9 +2,12 @@
 
 - Problem statement: [Extraction of Data including voice and images from various social Media platforms from Disaster struck areas](https://vikas-066f8f.webflow.io/)
 
-Team – <b>gitinitrepo</b>
+<img src = "https://drive.google.com/drive/folders/133CHlZEL9-ue1E9J7lymIEy5yEfKgNmH">
 
-Ministry : National Disaster Response Force (NDRF)
+
+- Team – <b>gitinitrepo</b>
+
+- Ministry : National Disaster Response Force (NDRF)
 
 <b>Team Members:</b>
 
