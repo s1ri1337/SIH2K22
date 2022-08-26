@@ -1,0 +1,5 @@
+pandas==1.4.3
+streamlit==1.12.0
+streamlit_tags==1.2.8
+streamlit_aggrid==0.3.2
+tweepy==3.10.0
