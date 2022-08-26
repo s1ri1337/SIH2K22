@@ -100,6 +100,8 @@ Tweets and text posts often contain crucial information about the locations affe
 
 We also made an LSTM based RNN model which helps us obtain important statstics with respect to a particular disaster. These stastics often include important landmarks and locations which we can represent in a map.
 <br><br>
+Demo:https://view-awesome-table.com/-NAOX2coHuKs-_YWPfhy/view
+<br><br>
 <img src="https://i.imgur.com/0b08Trq.jpg"> <br><br>
 
 
