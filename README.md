@@ -9,23 +9,28 @@
 
 <b>Team Members:</b>
 
-Gautham Prabhu (<b>Team Lead</b>), Anurag Chowdhury, Soumya A R, Anshita Palorkar, Tanay Gupta, MV Srujan;
+Gautham Prabhu (<b>Team Leader</b>), Anurag Chowdhury, Soumya A R, Anshita Palorkar, Tanay Gupta, MV Srujan;
 
 We represented our college Manipal Institute of Technology in the hackathon
 
-# ABSTRACT
+# Abstract
 
 <b>VIKAS</b>, A real-time, multimodal solution linking disaster victims and first responders from NDRF: streamlining support to the most vulnerable.
 
 In the event of a disaster, many people turn to social media to seek support, both material and mental. The data from these posts aids in increasing situational awareness as soon as possible. Text, images, videos, and audio extracted in real-time from these social media posts play a crucial role in identifying appropriate emergency responses to a particular disaster. Once irrelevant information is filtered out, deep-learning-based classification, object identification and natural language processing methods are used to expedite emergency response decision-making
 processes. Easy-to-interpret visualizations provide details further facilitate the distribution of resources and dispatch required personnel to affected areas.
 
-<img src="https://i.imgur.com/78tP0Gk.png"> 
+<img src="https://i.imgur.com/78tP0Gk.png">
+
+
+
+<br>
 
 Our solution involves the following components:
 
 1) Data extraction- Realtime extraction of raw data 
 2) Analysis of extracted data
+3) Visualization for data
    
 # Data Extraction
 
@@ -51,14 +56,24 @@ For cleaning of data and preprocessing our model does the following:
 - Duplicated tweets are placed in a different pandas dataframe.
 - Irrelevant tweets are filtered out using Natural Language Processing.
 
-We also developed a Word Cloud which generates a collection of words which are associated with the disaster. These words are generated according to the frequency of their usage and their relevance with respect to the disaster.
+ <img src="https://i.imgur.com/q4BZpG0.png"> 
+
+ ### Tweets filtered for the keyword 'Flood' 
+<br>
+We also developed a Word Cloud which generates a collection of words which are associated with the disaster. These words are generated according to the frequency of their usage and their relevance with respect to the disaster.<br>
+
+To run the word cloud you need to first install the python library by the following command
+
+    pip install wordcloud
+
+<br>
 
 <img src="https://i.imgur.com/wEtRtGh.png"> 
 
 
 <img src="https://i.imgur.com/oLqYSNT.png"> 
 
-An illustration of the word cloud for the tweets relevant to Japan bombings 
+### An illustration of the word cloud for the tweets relevant to Japan bombings 
 
 
 For determining the relevancy of a tweet, we used the [Crisis NLP dataset](https://crisisnlp.qcri.org/). We use a BERT based model to analyze this text which is described in the next section.
@@ -73,6 +88,47 @@ Images are extracted from image links present after the relevant tweets are filt
 
 ## Analysing text
 
+
+Tweets and text posts often contain crucial information about the locations affected by a particular by a disaster and the amount of resources required. Hence after the extraction of text, we make word embeddings. These word embeddings are then classified as disaster and non disaster related.<br><br>
+
+<img src="https://i.imgur.com/zOwCUQ6.jpg"> 
+<br>
+<br>
+<img src="https://i.imgur.com/4Xm9jRQ.jpg"> 
+<br>
+<br>
+
+We also made an LSTM based RNN model which helps us obtain important statstics with respect to a particular disaster. These stastics often include important landmarks and locations which we can represent in a map.
+<br><br>
+<img src="https://i.imgur.com/0b08Trq.jpg"> <br><br>
+
+
+
+## Analysing audio
+
+Speech Recognition using the Google Speech API. 
+Audios will be extracted from videos and converted into text using Speech-to-Text. 
+The text is further analysed using the models mentioned above.
+
+## Analysing photos and videos
+
+We use CNN-based classification and object detection models to classify images and detect disaster-related labels.
+
+We first classify images as relevant or irrelevant depending upon on the disaster. In this model we fine tune an existing model, the Resnet50. This refined model is built on fastai.
+Further the relevant images are then taken and classified based on severity and the type of disaster. 
+
+DL models are used for this classification. Types of damage include fire damage, natural damage, infrastructure damage, and flood damage and severity ranges from mild to severe.
+
+<img src="https://i.imgur.com/xUyJCeG.png"> <br><br>
+
+<img src="https://i.imgur.com/JbDHIzW.png"> <br><br>
+
+
+# Visualizations
+
+Visualizations are available on this link. It describes the data made avaiable after applying various ML techniques.
+
+https://anshita-palorkar-vikas-dashboard-dash-1o0kww.streamlitapp.com/
 
 
 
