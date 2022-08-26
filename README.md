@@ -145,3 +145,6 @@ With better documentation of local landmarks, we can refine the search space and
 MLaaS and PaaS will increase processing power, reduce model training time, make it easier to manage storage and updation.
 
 
+## Figma Links
+https://www.figma.com/file/QMKn8FxcbEtSY5KKajtXLF/Vikas-Dashboard?node-id=301%3A2872 (English)
+https://www.figma.com/file/yGQMVaYngLebKpmQoXTl8y/Vikas-Dashboard-(Hindi)?node-id=0%3A1 (Hindi)
