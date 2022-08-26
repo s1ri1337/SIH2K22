@@ -126,12 +126,22 @@ DL models are used for this classification. Types of damage include fire damage,
 
 # Visualizations
 
-Visualizations are available on this link. It describes the data made avaiable after applying various ML techniques.
+Visualizations are available on this link. It describes the data made avaiable after applying various ML techniques described above.
 
 https://anshita-palorkar-vikas-dashboard-dash-1o0kww.streamlitapp.com/
 
+# Future scope and limitations
 
+## Language
+More research into Indian language processing, pre-trained models, and corpora collection will help us expand our project to a diverse range of localities.
 
+## More Data Sources
+Higher level access to public APIs, and access to APIs that are not currently public (ex. Facebook, Koo) could provide us with more information to improve our accuracy, redundancy checks, and account for outliers.
 
+## Location Data
+With better documentation of local landmarks, we can refine the search space and improve map visualisation.
+
+## Cloud Computing Resources
+MLaaS and PaaS will increase processing power, reduce model training time, make it easier to manage storage and updation.
 
 
