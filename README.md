@@ -9,7 +9,7 @@
 
 <b>Team Members:</b>
 
-Gautham Prabhu (<b>Team Leader</b>), Anurag Chowdhury, Soumya A R, Anshita Palorkar, Tanay Gupta, MV Srujan;
+[Gautham Prabhu](https://github.com/GauthamPrabhuM) (<b>Team Leader</b>), [Anurag Chowdhury](https://github.com/canurag17), [Soumya A R](https://github.com/omnomsom), [Anshita Palorkar](https://github.com/anshita-palorkar), [Tanay Gupta](https://github.com/s1ri1337), [MV Srujan](https://github.com/mvsrujan);
 
 We represented our college Manipal Institute of Technology in the hackathon
 
@@ -130,7 +130,8 @@ DL models are used for this classification. Types of damage include fire damage,
 
 Visualizations are available on this link. It describes the data made avaiable after applying various ML techniques described above.
 
-https://anshita-palorkar-vikas-dashboard-dash-1o0kww.streamlitapp.com/
+https://www.figma.com/file/QMKn8FxcbEtSY5KKajtXLF/Vikas-Dashboard?node-id=301%3A2872 (English)
+https://www.figma.com/file/yGQMVaYngLebKpmQoXTl8y/Vikas-Dashboard-(Hindi)?node-id=0%3A1 (Hindi)
 
 # Future scope and limitations
 
@@ -145,8 +146,3 @@ With better documentation of local landmarks, we can refine the search space and
 
 ## Cloud Computing Resources
 MLaaS and PaaS will increase processing power, reduce model training time, make it easier to manage storage and updation.
-
-
-## Figma Links
-https://www.figma.com/file/QMKn8FxcbEtSY5KKajtXLF/Vikas-Dashboard?node-id=301%3A2872 (English)
-https://www.figma.com/file/yGQMVaYngLebKpmQoXTl8y/Vikas-Dashboard-(Hindi)?node-id=0%3A1 (Hindi)
